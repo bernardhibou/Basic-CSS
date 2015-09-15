@@ -1,0 +1,63 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+  <title>Hello Kitty Deathmatch</title>
+  <link rel="stylesheet" type="text/css" href="public/stylesheets/style.css">
+</head>
+<body>
+  <h2>Login Page</h2>
+  <form method="POST" action="/login">
+  <div>
+      <label for="email">Email:</label>
+      <input type="text" name="lastname" id="lastname" placeholder="Email, spit spot" required>
+
+      <div>
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" placeholder="Enter your awful password">
+    </div>
+
+  <img id="stitches" src="C:\Users\nickmarceau\Desktop\Apps\stitches.png" />
+  
+  <div>
+    <input class="button" type="submit" value="Login">
+  </div>
+
+  <h2>New Victims</h2>
+  <form method="POST" action="/signup">
+    <div>
+      <label for="firstname">First Name:</label>
+      <input type="text" name="firstname" id="firstname" placeholder="Enter your awful first name" required>
+    </div>
+    <div>
+      <label for="lastname">Last Name:</label>
+      <input type="text" name="lastname" id="lastname" placeholder="Enter your wretched last name" required>
+    </div>
+
+    <div>
+      <label for="Country">Country:</label>
+      <select name="country" id="country">
+        <option value="">Pick Country</option>
+        <option value="CA">Canada</option>
+        <option value="US">USA</option>
+        <option value="AZ">Azeroth</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="email">Email:</label>
+      <input type="text" name="lastname" id="lastname" placeholder="Email, spit spot" required>
+    </div>
+  
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" placeholder="Enter your awful password">
+    </div>
+    <div>
+      <label for="bio">Bio:</label>
+      <textarea name="bio" id="bio" placeholder="By all means, tell us about yourself"></textarea>
+    </div>
+    <div>
+      <input class="button" type="submit" value="Signup">
+    </div>
+</body>
+</html>
